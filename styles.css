@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    /* border: 2px solid red; */
+    width: 50%;
+    margin: 50px auto;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+}
+.row{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+}
+.left-card{
+    background-image: linear-gradient(to bottom, rgb(126, 117, 253) , blue);
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+}
+.score{
+    background-color: blue;
+    border-radius: 100%;
+    width: 100px;
+    margin: 10px auto;
+    padding: 20px;
+}
+.total{
+    opacity: 0.5;
+}
+.right-card{
+    width: 50%;
+    padding: 20px;
+    /* border: 2px solid red; */
+}
+.first-grade{
+    padding: 10px 10px;
+    background-color: rgba(255, 0, 0, 0.1);
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.second-grade{
+    padding: 10px 10px;
+    background-color: rgba(255, 166, 0, 0.1);
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.third-grade{
+    padding: 10px 10px;
+    background-color: rgba(0, 128, 0, 0.1);
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.forth-grade{
+    padding: 10px 10px;
+    background-color: rgba(0, 0, 255, 0.1);
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.mybutton{
+    /* border: 2px solid red; */
+    background-color: rgb(65, 65, 65);
+    border-radius: 50px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+}
+.btn{
+    /* border: 2px solid blue; */
+    text-decoration: none;
+    color: white;
+}
+.mybutton:hover{
+    opacity: 0.9;
+}
