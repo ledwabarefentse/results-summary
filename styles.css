@@ -5,12 +5,18 @@
 }
 .card{
     /* border: 2px solid red; */
-    width: 50%;
+    width: 60%;
+    max-width: 720px;
     margin: 50px auto;
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.205);
     border-radius: 20px;
 }
 .row{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+}
+.row-grades{
     /* border: 2px solid green; */
     display: flex;
     justify-content: space-between;
@@ -22,9 +28,10 @@
     padding: 20px;
     border-radius: 20px;
     color: white;
+    /* border: 2px solid orange; */
 }
 .score{
-    background-color: blue;
+    background-image: linear-gradient(to top, rgb(86, 74, 255) , rgb(34, 34, 255));
     border-radius: 100%;
     width: 100px;
     margin: 10px auto;
@@ -33,34 +40,62 @@
 .total{
     opacity: 0.5;
 }
+.feedback{
+    /* border: 2px solid red; */
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+.sub-feedback{
+    /* border: 2px solid green; */
+    padding: 10px;
+    width: 75%;
+    margin: auto;
+}
 .right-card{
     width: 50%;
     padding: 20px;
     /* border: 2px solid red; */
 }
 .first-grade{
-    padding: 10px 10px;
-    background-color: rgba(255, 0, 0, 0.1);
+    padding: 10px ;
+    background-color: rgba(255, 0, 0, 0.05);
     margin: 10px 0;
     border-radius: 5px;
+}
+.score-one{
+    color: rgba(255, 0, 0, 0.7);
+    padding: 0 5px;
 }
 .second-grade{
     padding: 10px 10px;
-    background-color: rgba(255, 166, 0, 0.1);
+    background-color: rgba(255, 166, 0, 0.05);
     margin: 10px 0;
     border-radius: 5px;
+}
+.score-two{
+    color: rgba(255, 166, 0, 0.7);
+    padding: 0 5px;
 }
 .third-grade{
     padding: 10px 10px;
-    background-color: rgba(0, 128, 0, 0.1);
+    background-color: rgba(0, 128, 0, 0.05);
     margin: 10px 0;
     border-radius: 5px;
 }
+.score-three{
+    color: rgba(0, 128, 0, 0.7);
+    padding: 0 5px;
+}
 .forth-grade{
     padding: 10px 10px;
-    background-color: rgba(0, 0, 255, 0.1);
+    background-color: rgba(0, 0, 255, 0.05);
     margin: 10px 0;
     border-radius: 5px;
+}
+.score-four{
+    color: rgba(0, 0, 255, 0.7);
+    padding: 0 5px;
 }
 .mybutton{
     /* border: 2px solid red; */
@@ -77,4 +112,18 @@
 }
 .mybutton:hover{
     opacity: 0.9;
+}
+@media  screen and (max-width: 720px){
+    .card{
+        box-shadow: 0px 0px 20px rgba(248, 6, 6, 0.205);
+    }
+    .row{
+        flex-direction: column;
+    }
+    .left-card{
+        width: 100%;
+    }
+    .right-card{
+        width: 100%;
+    }
 }
