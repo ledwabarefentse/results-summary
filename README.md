@@ -2,7 +2,7 @@
 
 # Description
 
-Creating a product landing page.
+Creating a result summary page.
 
 ## Built With
 
